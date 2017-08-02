@@ -14,10 +14,7 @@ module.exports = {
 				test: /\.css$/,
 				loader: ExtractTextPlugin.extract({
           			loader: 'css-loader'
-				}),
-		        options: {
-		          includePath: "./css/plain_css.css"
-		        }
+				})
 			},
 			{ // sass / scss loader for webpack
 		        test: /\.(sass|scss)$/,
